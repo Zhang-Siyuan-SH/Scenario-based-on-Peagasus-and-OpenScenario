@@ -33,6 +33,7 @@ def excel_write(description_of_scenario):
                 sheet.Cells(excel_row, column).BorderAround(1)
                 sheet.Cells(excel_row, column).VerticalAlignment = -4160
                 sheet.Cells(excel_row, column).HorizontalAlignment = -4131
+            sheet.Cells(excel_row, 16).BorderAround(1)  # border of Level6
             break
     # save and quit
     workbook.Save()

@@ -71,7 +71,6 @@ class ScenarioClass(object):
             scenario_type, road_level, infrastructure, environment = self.fixed_content()
             description = [scenario_catalog, scenario_type, scenario_name, scenario_description, road_level,
                            infrastructure, objects, environment, "LC"]
-            print(description)
             return description
         else:
             if (self.object_init[1] == self.ego_init[1] and
