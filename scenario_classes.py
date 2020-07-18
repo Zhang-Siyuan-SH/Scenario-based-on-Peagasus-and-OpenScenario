@@ -161,3 +161,9 @@ class ScenarioClass(object):
         environment = "5.1 Environment\nSeason: summer\nTime of day: afternoon\nWeather: sunny\nLighting: sun " \
                       "shiny\n\n5.2 Road condition\nRoad influence: dry\nRoadway friction value: normal "
         return scenario_type, road_level, infrastructure, environment
+
+
+if __name__ == "__main__":
+    sce = ScenarioClass(2, [1, 2], [2, 3])
+    dev = sce.catalog()
+    print(dev)

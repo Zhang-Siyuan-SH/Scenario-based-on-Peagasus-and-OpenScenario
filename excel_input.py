@@ -2,7 +2,6 @@
 import win32com.client
 import os
 from scenario_classes import ScenarioClass
-import time
 
 
 def excel_write(description_of_scenario):
